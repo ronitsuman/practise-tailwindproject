@@ -4,12 +4,12 @@ const Body = () => {
   return (
     <div className="space-y-4 ">
       <div className="flex items-center justify-around ">
-        <img src="./src/assets/Blue-Shape.svg" alt="1st" className="-rotate-45  h-64 "/>
+        <img src="./src/assets/Blue-Shape.svg" alt="1st" className="-rotate-45  h-64 md:h-80 "/>
         <img src="./src/assets/Pink-Shape.svg" alt="2nd
         " 
-        className="absolute -rotate-[15deg] h-64  "/>
-        <img src="./src/assets/Purple-Shape.svg" alt="3rd" className="absolute -rotate-[30deg] h-64"  />
-        <img src="./src/assets/Hero-Model.png" alt="hero" className="absolute h-64"   />
+        className=" md:h-80 absolute -rotate-[15deg] h-64  "/>
+        <img src="./src/assets/Purple-Shape.svg" alt="3rd" className="absolute -rotate-[30deg] h-64 md:h-80 "  />
+        <img src="./src/assets/Hero-Model.png" alt="hero" className="absolute h-64 md:h-120 "   />
         </div>
       
       <div>
