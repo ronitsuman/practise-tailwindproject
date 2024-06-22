@@ -2,7 +2,13 @@
 export default  {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontfamily:{
+        playfair:" 'Playfair display', 'serif'",
+        lato:"'Lato' , 'sans-serif'"
+
+      }
+    },
   },
   plugins: [],
 }
