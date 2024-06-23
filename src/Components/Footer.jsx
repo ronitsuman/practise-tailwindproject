@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex  flex-col  gap-1">
+    <div className="flex  flex-col  gap-12">
       <div>
-      <ul className="flex fel-col gap-6 font-extralight text-gray-400  text-center ">
+      <ul className="flex gap-5 font-lato text-gray-400  ">
         <li>
           <a href="#">Facebook</a>
         </li>
@@ -16,10 +16,12 @@ const Footer = () => {
         </li>
       </ul>
       </div>
-      <div className=" flex hue-rotate-30 space-x-2">
-        <img src="./src/assets/Help-Avatar.svg" alt="" className="h-12"/>
-        <p className="font-extralight text-left"> Have Any Question ? </p>
-        <a href="#" className="text-a ">Talk To Our Specialist</a>
+      <div className=" flex gap-2">
+        <img src="./src/assets/Help-Avatar.svg" alt="help" className="h-12"/>
+        <div className=""> 
+        <p className="font-extralight "> Have Any Question ? </p>
+        <a href="#" className=" ">Talk To Our Specialist</a>
+        </div>
       </div>
     </div>
     

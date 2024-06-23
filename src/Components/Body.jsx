@@ -2,8 +2,8 @@ import React from "react";
 
 const Body = () => {
   return (
-    <div className="space-y-4 ">
-      <div className="flex items-center justify-around ">
+    <div className="space-y-2 ">
+      <div className="flex item-centre justify-around  ">
         <img src="./src/assets/Blue-Shape.svg" alt="1st" className="-rotate-45  h-64 md:h-80 "/>
         <img src="./src/assets/Pink-Shape.svg" alt="2nd
         " 
@@ -21,6 +21,7 @@ const Body = () => {
         </form>
         <div className="py-2 ">
           <img src="./src/assets/Checkmark.svg" alt="verified" />
+          
           <p className="font-lato text-gray-400">Non Spam Unsuscribe Anytime</p>
         </div>
 
