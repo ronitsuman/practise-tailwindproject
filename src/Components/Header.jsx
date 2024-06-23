@@ -13,6 +13,8 @@ const Header = () => {
         <li><a href="#">Plans</a></li>
         <li><a href="#">Find Domain</a></li>
         <li><a href="#">Why Hoster</a></li>
+        <li><a href="#">Why Hoster</a></li>
+
       </ul>
       <div className='hidden lg:flex justify-center items-center font-lato gap-6'>
         <a href="#">Sign In </a>
